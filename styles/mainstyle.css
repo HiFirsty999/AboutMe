@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(50, 50, 50);
+    color: white;
+}
+
+.Main {
+    display: flex, list-item;
+}
+
+.Button {
+    height: 5vh;
+    width: 15vh;
+    background-color: orange;
+    cursor: pointer;
+}

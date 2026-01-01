@@ -5,27 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mainstyle.css">
 </head>
 <body>
     <div class="Main">
         <h1>About me</h1>
-        <p>Hello! My name is Firsty, I am a frontend developer!</p>
-        <p>(I am not a Full-Stack Developer btw)</p>
+        <p>Hello, My name is Firsty!</p>
+        <p>I am a frontend developer and a programmer!</p>
         <p>Also, I have my profile links too! It's down here!</p>
         <br>
         <br>
-        <button class="Button" id="ToGithub" onclick="ChangeToGithub()">Github</button>
+        <button class="Button" id="ToGithub" onclick="ChangeToGithub()" onpointerenter='PointerEnter("ToGithub")' onpointerleave='PointerLeave("ToGithub")'>Github</button>
         <br>
         <br>
-        <button class="Button" id="ToYoutube" onclick="ChangeToYoutube()">Youtube</button>
+        <button class="Button" id="ToYoutube" onclick="ChangeToYoutube()" onpointerenter='PointerEnter("ToYoutube")' onpointerleave='PointerLeave("ToYoutube")'>Youtube</button>
         <br>
         <br>
-        <button class="Button" id="ToTiktok" onclick="ChangeToTiktok()">Tiktok</button>
+        <button class="Button" id="ToTiktok" onclick="ChangeToTiktok()" onpointerenter='PointerEnter("ToTiktok")' onpointerleave='PointerLeave("ToTiktok")'>Tiktok</button>
+        <br>
+        <br>
+        <button class="Button" id="ViewProjects" onclick="ViewProjects()" onpointerenter='PointerEnter("ViewProjects")' onpointerleave='PointerLeave("ViewProjects")'>View Projects</button>
         <br>
         <br>
         <p><span style="color: blueviolet;">Discord Username Btw: hi_firsty</span></p>
     </div>
-    <script src="scripts/script.js"></script>
+    <script src="scripts/mainscript.js"></script>
 </body>
 </html>
