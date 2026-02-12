@@ -1,3 +1,5 @@
+const ToMainPageElement = document.getElementById("ToMainPage")
+
 const MainPageLink = "index.html";
 
 const GithubLink = "https://github.com/HiFirsty999";
@@ -44,6 +46,16 @@ function ViewProjects() {
 
 function ToMainPage() {
     window.location.href = MainPageLink;
+
+    ToMainPageElement.innerHTML = "Please wait...";
+    ToMainPageElement.style.opacity = "0.5";
+    ToMainPageElement.style.pointerEvents = "none"
+
+    setTimeout(function() {
+        ToMainPageElement.innerHTML = "To main page";
+        ToMainPageElement.style.opacity = "1";
+        ToMainPageElement.style.pointerEvents = "auto"
+    }, 1000);
 }
 
 function ToClickerGame() {
