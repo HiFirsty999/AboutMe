@@ -1,6 +1,6 @@
 function Sended(ElementID) {
     const UIElement = document.getElementById(ElementID);
-    
+
     UIElement.style.opacity = "0.5";
     UIElement.style.pointerEvents = "none";
 
