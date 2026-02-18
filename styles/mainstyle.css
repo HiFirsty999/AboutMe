@@ -14,7 +14,7 @@ body {
 }
 
 .Button {
-    font-family: sans-serif;
+    font-family: monospace;
     border: 0.3vh, solid, rgb(0, 0, 0);
     border-radius: 0.5vh;
     height: 5vh;
