@@ -5,7 +5,7 @@ body {
 
     animation-name: siteEnter;
     animation-timing-function: linear;
-    animation-duration: 0.5s;
+    animation-duration: 2s;
     animation-fill-mode: forwards;
 }
 
@@ -27,7 +27,7 @@ body {
     white-space: pre-wrap;
 
     transition-property: all;
-    transition-duration: 0.8s;
+    transition-duration: 1s;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -35,7 +35,14 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 
-    transform: scale(1.05);
+    transform: scaleX(1.05) scaleY(1.05);
+}
+
+.Button:hover:active {
+    background-color: rgb(0, 200, 100);
+    color: rgb(0, 0, 0);
+
+    transform: scaleX(1) scaleY(1);
 }
 
 .Image {
