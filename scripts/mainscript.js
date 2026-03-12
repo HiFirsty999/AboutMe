@@ -47,16 +47,6 @@ function ViewProjects() {
 
 function ToMainPage() {
     window.location.href = MainPageLink;
-
-    ToMainPageElement.innerHTML = "Please wait...";
-    ToMainPageElement.style.opacity = "0.5";
-    ToMainPageElement.style.pointerEvents = "none"
-
-    setTimeout(function() {
-        ToMainPageElement.innerHTML = "To main page";
-        ToMainPageElement.style.opacity = "1";
-        ToMainPageElement.style.pointerEvents = "auto"
-    }, 1000);
 }
 
 function ToClickerGame() {
@@ -73,17 +63,6 @@ function ToScreenSaver() {
 
 //Others
 
-function ToGmail(ElementId) {
-    const UIElement = document.getElementById(ElementId);
-
+function ToGmail() {
     window.location.href = EmailSendLink;
-    UIElement.innerHTML = "Please wait...";
-    UIElement.style.pointerEvents = "none";
-    UIElement.style.opacity = "0.5";
-
-    setTimeout(function() {
-        UIElement.innerHTML = "Contact Me";
-        UIElement.style.pointerEvents = "auto";
-        UIElement.style.opacity = "1";
-    }, 1000)
 }
