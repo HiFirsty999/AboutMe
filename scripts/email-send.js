@@ -8,4 +8,4 @@ function Sended(ElementID) {
         UIElement.style.opacity = "1";
         UIElement.style.pointerEvents = "auto";
     }, 1000);
-}
+};

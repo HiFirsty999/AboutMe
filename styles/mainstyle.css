@@ -64,6 +64,10 @@ textarea {
     width: 25vh;
 }
 
+summary {
+    cursor: pointer;
+}
+
 @keyframes siteEnter {
     from {
         background-color: rgb(0, 0, 0);
