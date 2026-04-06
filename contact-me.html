@@ -2,8 +2,7 @@
 
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/mainstyle.css">
     <link rel="icon" type="image/png" href="images/Placeholder.png">
     <title>firsty.is-a.dev - Contact Me</title>
@@ -17,6 +16,9 @@
     <br>
     <h1>Contact Me</h1>
     <br>
+    <abbr>--</abbr>
+    <br>
+    <br>
     <br>
     <form action="https://formspree.io/f/mgonvezk" method="post">
         <label>Enter your email: <input type="email" placeholder="Email (Required)" id="Email" name="Email"></label>
@@ -28,8 +30,19 @@
         <textarea placeholder="Message (Required)" id="Message" name="Message" required></textarea>
         <br>
         <br>
-        <input type="submit" value="Send an Email" id="EmailButtonSend" class="Button" onclick="Sended('EmailButtonSend')">
+        <button type="submit" id="EmailButtonSend" class="Button" onclick="Sended('EmailButtonSend')">Send an email</button>
     </form>
+    <br>
+    <br>
+    <abbr>--</abbr>
+    <br>
+    <br>
+    <p>- For more features, <a href="mailto:firsty.ph@gmail.com" target="_blank">[Continue with Google].</a></p>
+    <br>
+    <br>
+    <footer>
+        <p style="text-align: center;">ⓘ Sponsored by <a href="https://formspree.io" target="_blank">Formspree.io</a></p>
+    </footer>
     <script src="scripts/email-send.js"></script>
 </body>
 </html>
