@@ -1,3 +1,5 @@
+const ButtonEmailSend = document.getElementById("ButtonEmailSend")
+
 function Sended(ElementID) {
     const UIElement = document.getElementById(ElementID);
 
@@ -9,3 +11,5 @@ function Sended(ElementID) {
         UIElement.style.pointerEvents = "auto";
     }, 1000);
 };
+
+ButtonEmailSend.addEventListener("click", Sended)
