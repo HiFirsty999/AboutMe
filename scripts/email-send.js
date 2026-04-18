@@ -1,15 +1,13 @@
-const ButtonEmailSend = document.getElementById("ButtonEmailSend")
+let ButtonEmailSend = document.getElementById("ButtonEmailSend");
 
-function Sended(ElementID) {
-    const UIElement = document.getElementById(ElementID);
-
-    UIElement.style.opacity = "0.5";
-    UIElement.style.pointerEvents = "none";
+function Sended() {
+    ButtonEmailSend.style.opacity = "0.5";
+    ButtonEmailSend.style.pointerEvents = "none";
 
     setTimeout(function() {
-        UIElement.style.opacity = "1";
-        UIElement.style.pointerEvents = "auto";
+        ButtonEmailSend.style.opacity = "1";
+        ButtonEmailSend.style.pointerEvents = "auto";
     }, 1000);
 };
 
-ButtonEmailSend.addEventListener("click", Sended)
+ButtonEmailSend.addEventListener("click", Sended);
