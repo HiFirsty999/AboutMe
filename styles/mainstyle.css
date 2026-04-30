@@ -72,8 +72,7 @@ body {
 */
 
 #Details {
-    justify-content: center;
-    justify-items: center;
+    text-align: center;
 }
 
 #FullDetails {
@@ -91,6 +90,7 @@ body {
     padding-top: 5vh;
     justify-content: center;
     justify-items: center;
+    text-align: center;
 }
 
 #Email {
@@ -99,7 +99,7 @@ body {
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); 
 }
 
-a {
+a{
     font-family: monospace;
     display: inline-block;
     color: rgb(255, 255, 255);
@@ -118,14 +118,12 @@ a:hover {
     color: rgb(0, 200, 100);
     text-decoration: underline;
     transform: scaleX(1.05) scaleY(1.05);
-    text-shadow: 0.5vh 0.25vh 0.25vh rgb(0, 150, 50);
 }
 
 a:active {
     color: rgb(0, 100, 255);
     text-decoration: none;
     transform: scaleX(1) scaleY(1);
-    text-shadow: none;
 }
 
 input {
