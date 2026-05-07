@@ -47,6 +47,11 @@ body {
     box-shadow: 0 0 5vh rgb(0, 0, 100);
 }
 
+.Titles {
+    text-align: center;
+    text-decoration: underline;
+}
+
 /*
 .ThumbnailImage {
     border: 0.3vh, solid, rgb(0, 0, 0);
